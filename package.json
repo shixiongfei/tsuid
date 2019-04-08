@@ -1,7 +1,7 @@
 {
   "name": "tsuid",
   "version": "1.0.0",
-  "description": "Timed Sequence Unique ID",
+  "description": "Time Series Unique ID",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
