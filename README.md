@@ -1,6 +1,6 @@
 # tsuid
 
-Timed Sequence Unique ID
+Time Series Unique ID
 
 Generates 8-byte UUID that consists of:
 
@@ -36,7 +36,7 @@ Option      | Description                                                  | Ran
 -------     | ------------------------------------------------------------ | ---- | ------
 type        | Return type of generated ID. See below for more details. | - | 'base64'
 additional  | Additional Unique Information (ex: Logical Shard ID) | 0 ~ 8191 | *(Random)*
-countNumber | Auto-incrementing sequence - to prevent conflicting  | 0 ~ 1023 | *(Random)*
+counter     | Auto-incrementing sequence - to prevent conflicting  | 0 ~ 1023 | *(Random)*
 
 ##### Return types
 
