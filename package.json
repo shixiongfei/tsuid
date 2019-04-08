@@ -1,0 +1,29 @@
+{
+  "name": "tsuid",
+  "version": "1.0.0",
+  "description": "Timed Sequence Unique ID",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shixiongfei/tsuid.git"
+  },
+  "keywords": [
+    "uuid",
+    "identifier",
+    "guid",
+    "id"
+  ],
+  "author": "shixiongfei",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/shixiongfei/tsuid",
+  "dependencies": {
+    "long": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.1",
+    "should": "^13.2.3"
+  }
+}
